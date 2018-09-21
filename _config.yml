@@ -2,12 +2,12 @@
 title: 留兰香
 SEOTitle: 留兰香的博客 | zchen
 header-img: img/post-bg-desk.jpg
-email: coderjas@foxmail.com
+email: zchen96.me@gmail.com
 description: "留兰香"
 keyword: "java, spring,留兰香、jas、zchen"
 url: "https://zchen96.github.io/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/zchen96/zchen96.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,12 +18,12 @@ sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in bot
 
 # SNS settings
 RSS: false
-# weibo_username:     zchen96
-# zhihu_username:     zchen96
+# weibo_username:     
+# zhihu_username:     
 github_username:    zchen96
 # facebook_username:  
-# jianshu_username:   e71990ada2fd
-#twitter_username:   zchen96
+# jianshu_username:   
+# twitter_username:   
 
 
 
@@ -78,7 +78,7 @@ ba_track_id: 1e1851bc90cd39973f50995f0ad92c36
 
 # Google Analytics
 # ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-# ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# ga_domain:          # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
