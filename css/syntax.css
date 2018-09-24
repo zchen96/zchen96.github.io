@@ -17,6 +17,7 @@
 /*
  * GitHub style for Pygments syntax highlighter, for use with Jekyll
  * Courtesy of GitHub.com
+ * font-style: italic; 注释倾斜
  */
 
 .highlight pre, pre, .highlight .hll { background-color: #f8f8f8; border: 1px solid #ccc; padding: 6px 10px; border-radius: 3px; }
@@ -24,9 +25,9 @@
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
 .highlight .k { font-weight: bold; }
 .highlight .o { font-weight: bold; }
-.highlight .cm { color: #999988; font-style: italic; }
+.highlight .cm { color: #999988; white-space:pre-wrap;}
 .highlight .cp { color: #999999; font-weight: bold; }
-.highlight .c1 { color: #999988; font-style: italic; }
+.highlight .c1 { color: #999988;}
 .highlight .cs { color: #999999; font-weight: bold; font-style: italic; }
 .highlight .gd { color: #000000; background-color: #ffdddd; }
 .highlight .gd .x { color: #000000; background-color: #ffaaaa; }
