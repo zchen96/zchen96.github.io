@@ -101,10 +101,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "CSDN",
-        href: "https://blog.csdn.net/codejas/"
-    },{
-        title: "segmentfault",
-        href: "https://segmentfault.com/u/zchen96"
+        title: "阮一峰的博客",
+        href: "http://www.ruanyifeng.com/"
     }
 ]
