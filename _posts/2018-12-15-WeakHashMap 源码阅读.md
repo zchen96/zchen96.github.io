@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      WeahHashMap 源码阅读
+title:      WeakHashMap 源码阅读
 subtitle:   jdk、WeakHashMap
 date:       2018-12-15
 author:     zchen
-header-img: img/post-bg-os-metro.jpg
+header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - jdk
