@@ -4,7 +4,7 @@ title:      WeakHashMap 源码阅读
 subtitle:   jdk、WeakHashMap
 date:       2018-12-15
 author:     zchen
-header-img: img/post-bg-universe.jpg
+header-img: img/post-bg-debug.png
 catalog: true
 tags:
     - jdk
