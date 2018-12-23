@@ -17,7 +17,7 @@ tags:
 
 `PriorityQueue` 底层是一个用数组实现的完全二叉树，但它并不只是一个完全二叉树，在没有自定义比较器（自然排序）的情况下，更严格的来讲它是一个基于数组实现的小顶堆（父节点的元素值小于左右孩子节点的元素值）。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220220238723.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVqYXM=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220220238723.png)
 
 ### 二、PriorityQueue 简介
 
@@ -82,7 +82,7 @@ tags:
 
 添加元素的方法有两个，分别是 `add` 与 `offer`，但是 `add` 内部调用的是 `offer` 方法，这里我们只对 `offer` 方法进行分析。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220220304825.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVqYXM=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181220220304825.png)
 
 由于新插入元素后，可能会导致小顶堆的结构被破坏，因此需要将新插入的元素（在小顶堆的最低层）向上调整，如果插入的元素比父节点大，那么就把父节点调下来，记录父节点的位置后继续向上调整，直到其比父节点元素值大为止。
 
@@ -150,7 +150,7 @@ tags:
 
 移除元素的方法也有两个，分别是 `remove` 与 `poll`，与 `remove` 不同的是 `poll` 每次移除的是堆顶的元素，也就是最小的元素，`remove` 可以移除指定的任意元素，并且这个移除只会移除第一次出现的该元素，如果后面也有该元素是不会移除的。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20181221103647844.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVqYXM=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181221103647844.png)
 
 `poll` 方法相比较于 `remove` 方法要简单一些，因为 `poll` 每次移除的是堆顶的元素，那么在调整二叉堆的时候只需要从头开始调整就好了(把队尾的元素移到队首)，如果孩子节点比父节点小，就把较小的孩子节点移到父节点的位置，记录移动的孩子的节点的位置，继续向下调整即可，而 `remove` 方法移除的元素可能是介于堆顶与堆尾的元素，这时就不仅需要向下调整了，必要的时候也需要向上进行调整才能维持小顶堆。
 
