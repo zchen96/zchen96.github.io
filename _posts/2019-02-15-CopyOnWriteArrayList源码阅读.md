@@ -29,7 +29,7 @@ tags:
 **1.3 图解**
 
 下面是一个 `CopyOnWriteArrayList` 的原理图：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/2019021519452898.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NvZGVqYXM=,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2019021519452898.png)
 
 
 ### 二、源码分析
