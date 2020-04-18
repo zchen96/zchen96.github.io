@@ -3,7 +3,7 @@ layout:     post
 title:      Spring IoC 源码分析（1）BeanDefinition 初始化与注册
 date:       2020-04-18
 author:     zchen
-header-img: img/post-spring.png
+header-img: img/post-code-computer.jpg
 catalog: true
 tags:
     - spring

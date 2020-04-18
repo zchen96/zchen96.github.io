@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79e4b69f-1c26-430e-a174-d4d3a3a7b746" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-0-Spring IoC 源码导读.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-1-BeanDefinition 初始化与注册.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-2-IoC 容器启动流程.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-3-Spring 事件发布机制原理分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-4-bean 创建流程分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-5-getBean 流程分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-6-解析aop配置信息.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-7-AOP代理类入口分析.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/2020-04-18-8-创建代理bean.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/post-spring.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="79e4b69f-1c26-430e-a174-d4d3a3a7b746" name="Default Changelist" comment="spring document">
+      <change afterPath="$PROJECT_DIR$/img/post-code-computer.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-23-Java 设计模式之策略模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-24-Java 设计模式之观察者模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-25-Java 设计模式之装饰者模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-29-Java 设计模式之工厂模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-09-30-Java 设计模式之单例模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-08-Java 设计模式之命令模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-09-Java 设计模式之适配器模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-10-23-Java 设计模式之外观模式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-0-Spring IoC 源码导读.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-0-Spring IoC 源码导读.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-1-BeanDefinition 初始化与注册.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-1-BeanDefinition 初始化与注册.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-2-IoC 容器启动流程.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-2-IoC 容器启动流程.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-3-Spring 事件发布机制原理分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-3-Spring 事件发布机制原理分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-4-bean 创建流程分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-4-bean 创建流程分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-5-getBean 流程分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-5-getBean 流程分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-6-解析aop配置信息.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-6-解析aop配置信息.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-7-AOP代理类入口分析.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-7-AOP代理类入口分析.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2020-04-18-8-创建代理bean.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2020-04-18-8-创建代理bean.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1551441759743</updated>
       <workItem from="1551441761315" duration="1267000" />
-      <workItem from="1587190579494" duration="1454000" />
+      <workItem from="1587190579494" duration="2204000" />
     </task>
     <task id="LOCAL-00001" summary="update img path">
       <created>1551441832031</created>
@@ -135,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551441832031</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring document">
+      <created>1587192060136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587192060136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update img path" />
-    <option name="LAST_COMMIT_MESSAGE" value="update img path" />
+    <MESSAGE value="spring document" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring document" />
   </component>
   <component name="masterDetails">
     <states>
